@@ -1,0 +1,55 @@
+ 
+ @font-face {
+     font-family: "SoulHandwriting";
+     src: url("/fonts/soul-handwriting_free-version.ttf");
+ }
+
+ body {
+margin: 0;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url(/img/crochet.jpeg);
+
+ }
+
+
+ .box-container {
+position: relative;
+width: 800px;
+height: 700px;
+cursor: pointer;
+ }
+
+ .box-container img {
+width: 100%;
+display: block;
+transition: opacity 0.4s ease;
+align-items: center;
+ }
+
+
+ .box-open {
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+ }
+
+ /* hover effect */
+ .box-container:hover .box-open {
+opacity: 1;
+ }
+
+ .box-container:hover .box-closed {
+opacity: 0;
+ }
+
+ .opentheboxtext {
+margin-top: 10px;
+text-align: center;
+font-family: "SoulHandwriting";
+font-size: 20pt;
+ }

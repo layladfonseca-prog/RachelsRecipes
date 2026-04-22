@@ -1,0 +1,152 @@
+body {
+background-image: url(/img/crochet.jpeg);
+font-family: Verdana, sans-serif;
+margin: 0;
+}
+
+
+html {
+scroll-behavior: smooth;
+}
+
+/* fonts */
+@font-face {
+  font-family: "SoulHandwriting";
+  src: url("/fonts/soul-handwriting_free-version.ttf");
+}
+
+@font-face {
+  font-family: "MyUnderwood";
+  src: url("/fonts/MyUnderwoodPro-2026.ttf");
+}
+
+
+/* centered main box */
+.container {
+width: 1100px;
+height: 90vh;
+margin: 20px auto;
+background: #2a2a2a;
+display: flex;
+flex-direction: column;
+}
+
+
+/* header */
+header {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-image: url(/img/woodbackground.png);
+padding: 10px;
+text-align: center;
+font-family: "SoulHandwriting";
+font-size: 30pt;
+box-shadow: 0px 0px 10px rgb(48, 16, 10);
+}
+
+.header-link {
+display: block;
+text-decoration: none;
+color: inherit;
+}
+
+
+/* FLEX LAYOUT */
+.layout {
+display: flex;
+flex: 1;
+background-image: url(/img/quitnew.jpg);
+gap: 10px;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-image: url("/img/woodbackground.png") 30 stretch;
+}
+
+/* BOTH SIDEBARS */
+.sidebar {
+flex-shrink: 0;
+top: 200px;
+height: fit-content;
+text-align: center;
+width: 150px;
+background-image: url("/img/indexcardbackground.png");
+background-size: auto;
+background-position: center;
+background-repeat: repeat;
+padding: 10px;
+border: 4px dotted brown;
+box-shadow: 0px 0px 10px rgb(48, 16, 10);
+font-family: "SoulHandwriting";
+}
+
+/* sidebar functions */
+.sidebar ul {
+list-style: none;
+padding: 0;
+}
+
+.sidebar li {
+margin: 6px 0;
+}
+
+.sidebar a {
+color: rgb(62, 51, 30);
+text-decoration: none;
+}
+
+.sidebar a:hover {
+text-decoration: underline;
+}
+
+
+/* main content */
+.content {
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  padding: 13px;
+  font-size: 15px;
+  font-family: "MyUnderwood";
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.welcomeheader{
+  font-family: "SoulHandwriting";
+  font-size: 20px;
+}
+
+/* small boxes */
+.box {
+background-image: url(/img/indexcardbackground.png);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+padding: 50px;
+text-align: center;
+}
+
+/*side images*/
+.floating-img {
+position: absolute;
+width: 400px;
+height: auto;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+transform: rotate(var(--rot));
+}
+
+.img2 {
+top: 150px;
+right: 40px;
+--rot: 6deg;
+}
+
+
+/* footer */
+footer {
+background-image: url(/img/woodbackground.png);
+text-align: center;
+padding: 10px;
+font-family: "SoulHandwriting";
+box-shadow: 0px 0px 10px rgb(48, 16, 10);
+}
