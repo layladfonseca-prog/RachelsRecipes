@@ -71,7 +71,7 @@ flex-basis: auto;
 height: fit-content;
 text-align: center;
 width: 150px;
-background-image: url("/img/indexcardbackground.png");
+background-image: url("../img/indexcardbackground.png");
 background-size: auto;
 background-position: center;
 background-repeat: repeat;
