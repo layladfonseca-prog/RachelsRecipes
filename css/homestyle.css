@@ -137,7 +137,7 @@ transform: rotate(var(--rot));
 
 .img2 {
 top: 150px;
-right: 40px;
+right: 10px;
 --rot: 6deg;
 }
 
