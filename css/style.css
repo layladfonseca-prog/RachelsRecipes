@@ -1,7 +1,7 @@
  
  @font-face {
      font-family: "SoulHandwriting";
-     src: url("/fonts/soul-handwriting_free-version.ttf");
+     src: url("../fonts/soul-handwriting_free-version.ttf");
  }
 
  body {
@@ -11,7 +11,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background-image: url(/img/crochet.jpeg);
+background-image: url("../img/crochet.jpeg");
 
  }
 
