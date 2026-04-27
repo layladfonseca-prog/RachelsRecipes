@@ -1,9 +1,3 @@
- 
- @font-face {
-     font-family: "SoulHandwriting";
-     src: url("../fonts/soul-handwriting_free-version.ttf");
- }
-
  body {
 margin: 0;
 height: 100vh;
@@ -47,9 +41,3 @@ opacity: 1;
 opacity: 0;
  }
 
- .opentheboxtext {
-margin-top: 10px;
-text-align: center;
-font-family: "SoulHandwriting";
-font-size: 20pt;
- }
